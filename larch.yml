@@ -1,0 +1,16 @@
+default:
+  all-subscribed: true # Copy all subscribed folders by default
+
+default:
+  from: imaps://imap.gmail.com
+  from-user: joeuser@gmail.com
+  from-pass: secret
+
+  to: imaps://mail.example.org
+  to-user: joeuser@example.org
+  to-pass: secret
+
+  exclude:
+    - "[Gmail]/Spam"
+    - "[Gmail]/Trash"
+
